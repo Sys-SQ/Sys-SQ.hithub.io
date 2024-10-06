@@ -1,0 +1,63 @@
+/* para que este al lado */
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+.article-tar {
+    margin:  20px ;
+    width: 300px;
+    height: 400px; 
+    transition-duration: 0.5s;   
+}
+
+.article-tar:hover {    
+    width: 350px;
+    height: 450px;    
+}
+
+.con-tar {      
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.img{
+    width: 100%;
+}
+
+.contenido{
+    padding: 5px;
+}
+.contenido h2{
+    margin-bottom: 3px;
+    color: orange;
+    font-family: 'Oswald';    
+}
+.contenido p{
+    margin-bottom: 3px;
+    color: black;
+    font-family: 'Lato';
+}
+
+.caja-enlace{
+    margin: 10px;
+    text-align: right;
+}
+
+.enlace{    
+    font-family: 'Lato';
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.enlace:hover{        
+    color: white;
+    font-size: 25px;    
+    background-color: black;     
+}

@@ -1,0 +1,103 @@
+/* css para el menu */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /* background-color: black; */
+    background-color: rgba(5, 5, 5, 0.9);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    /* align-items: center; */
+    /* transparecia */
+    position: sticky;
+    top: 0;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Oswald';
+}
+
+.header-link span {
+    color: darkorange;
+    font-weight: 900;
+}
+
+.header-link i {
+    font-size: 35px;
+    transition-duration: 1s;
+}
+
+.header-link i:hover {
+    color: orange;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    font-family: 'PT Sans';
+}
+
+.menu-link:hover {
+    color: rgb(0, 255, 213);
+    font-size: 20px;
+}
+
+/* pie de pagina */
+.footer {
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-p {
+    color: white;
+    text-align: left;
+}
+
+.footer i {
+    color: orange;
+    font-size: 20px;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.footer-link:hover {
+    color: orange;
+}
+
+
+details summary p {
+    color: white;
+    text-align: center;
+}
